@@ -15,7 +15,7 @@ const Cursos = () => {
                     {courses.map((curso) => (
                         <li key={ curso.id } className="grid-item">
                             <NavLink to={`/cursos/${curso.title.replace(/\s+/g, '-')}`} title={curso.title} className="img-link">
-                                <div className="inscription">Inscripto</div>
+                                <div className="inscription">Inscrito</div>
                                 <img
                                     data-lazyloaded="1"
                                     src={ curso.img }
